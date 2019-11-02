@@ -5,7 +5,7 @@ unwine is a front end for PuTTY's `plink` tool to launch a command on localhost.
 
 # Motivation
 
-This tool is the byproduct of my ongoing attempt to run a Windows build slave for Jenkins CI on a Linux server using Wine. Git for Windows crashes in Wine, but unwine allows us to use the Git client of the host system instead.
+This tool is the byproduct of my attempt to run a Windows build slave for Jenkins CI on a Linux server using Wine. Git for Windows crashes in Wine, but unwine allows us to use the Git client of the host system instead.
 
 ## Build Instructions
 

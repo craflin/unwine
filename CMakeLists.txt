@@ -10,3 +10,11 @@ if(MSVC)
 endif()
 
 add_subdirectory(src)
+
+install(FILES LICENSE README.md DESTINATION .)
+
+set(CPACK_GENERATOR "NSIS")
+set(CPACK_PACKAGE_INSTALL_DIRECTORY "unwine")
+set(CPACK_RESOURCE_FILE_LICENSE "${CMAKE_CURRENT_SOURCE_DIR}/LICENSE")
+include(CPack)
+
